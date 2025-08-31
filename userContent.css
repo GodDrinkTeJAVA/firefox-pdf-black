@@ -1,0 +1,13 @@
+@-moz-document url-prefix(file://) {
+    .pdfViewer .page {
+        filter: invert();
+    }
+
+    body:has(.pdfViewer) {
+        --body-bg-color: light-dark(rgb(212 212 215), #000);
+        --toolbar-bg-color: light-dark(rgb(249 249 250), #000);
+        --sidebar-toolbar-bg-color: light-dark(rgb(245 246 247), #000);
+        --dropdown-btn-bg-color: light-dark(rgb(215 215 219), #000);
+        --field-bg-color: light-dark(rgb(255 255 255), #000);
+    }
+}
